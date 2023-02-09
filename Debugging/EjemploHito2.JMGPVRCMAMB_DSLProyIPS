@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modeloDERAWebBD xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ecd45d01-db80-40b1-a371-6ec09f01c1a0" xmlns="http://schemas.microsoft.com/dsltools/JMGPVRCMAMBModeladoYLenguajeGrafico">
+  <modeloEntidad>
+    <modeloDERAWebBDHasModeloEntidad Id="b902d85b-5a8d-4d07-9b02-ab27893b7a82">
+      <entidad Id="8c9b7bc3-b2a0-4642-bad3-fb13156002ed" nombre="Entidad1">
+        <objetoAtributoSimple>
+          <objetoReferencesObjetoAtributoSimple Id="40bb33e5-6396-4e53-a91d-bd3af9abd745">
+            <atributoSimpleMoniker Id="cf865af3-32be-4fad-8fc3-d6d2b8bef003" />
+          </objetoReferencesObjetoAtributoSimple>
+          <objetoReferencesObjetoAtributoSimple Id="e616cf80-9eb2-4e0a-955e-985188d245ce">
+            <atributoSimpleMoniker Id="738dae11-d7c7-48f3-b96c-344070235e2b" />
+          </objetoReferencesObjetoAtributoSimple>
+        </objetoAtributoSimple>
+        <entidadCP>
+          <entidadReferencesEntidadCP Id="5a7c269b-3f9a-42c3-9022-f20ca7d1a083">
+            <atributoCPMoniker Id="b33b1df6-c152-4df6-9dfe-2313c45fbe66" />
+          </entidadReferencesEntidadCP>
+        </entidadCP>
+      </entidad>
+    </modeloDERAWebBDHasModeloEntidad>
+    <modeloDERAWebBDHasModeloEntidad Id="6dd52edb-b3fa-4737-a010-3be52e151ec5">
+      <entidad Id="3d12bb5a-48ee-4920-b8cb-4d66ea37a879" nombre="Entidad2">
+        <objetoAtributoSimple>
+          <objetoReferencesObjetoAtributoSimple Id="651f12d6-681a-426c-8b02-5a69033eaa59">
+            <atributoSimpleMoniker Id="8ea73fe8-514d-491c-abe6-68858e2f52d3" />
+          </objetoReferencesObjetoAtributoSimple>
+          <objetoReferencesObjetoAtributoSimple Id="b65b458f-79d5-4b8d-9bfb-d5c60daccbff">
+            <atributoSimpleMoniker Id="2160626d-8a1e-4941-9563-951f35eaa07b" />
+          </objetoReferencesObjetoAtributoSimple>
+        </objetoAtributoSimple>
+        <entidadCP>
+          <entidadReferencesEntidadCP Id="3d4138ee-e1c4-458f-b79e-b64274aa0684">
+            <atributoCPMoniker Id="2950840b-a683-4782-a908-fc0284531350" />
+          </entidadReferencesEntidadCP>
+        </entidadCP>
+      </entidad>
+    </modeloDERAWebBDHasModeloEntidad>
+  </modeloEntidad>
+  <modeloAtributoSimple>
+    <modeloDERAWebBDHasModeloAtributoSimple Id="188be739-2d58-424b-bc77-9363eca23240">
+      <atributoSimple Id="cf865af3-32be-4fad-8fc3-d6d2b8bef003" nombre="Nombre" tipoDatos="String" longitud="0" esUnico="false" puedeSerNulo="false" />
+    </modeloDERAWebBDHasModeloAtributoSimple>
+    <modeloDERAWebBDHasModeloAtributoSimple Id="3a054008-ac49-4e9d-9733-5c71ac97fd57">
+      <atributoSimple Id="738dae11-d7c7-48f3-b96c-344070235e2b" nombre="Edad" tipoDatos="Int" longitud="0" esUnico="false" puedeSerNulo="false" />
+    </modeloDERAWebBDHasModeloAtributoSimple>
+    <modeloDERAWebBDHasModeloAtributoSimple Id="2582b72d-ed1a-490e-9197-ebdde1a5c564">
+      <atributoSimple Id="8ea73fe8-514d-491c-abe6-68858e2f52d3" nombre="Numero" tipoDatos="Int" longitud="0" esUnico="false" puedeSerNulo="false" />
+    </modeloDERAWebBDHasModeloAtributoSimple>
+    <modeloDERAWebBDHasModeloAtributoSimple Id="05cccd78-90d5-4377-831d-6399b2b0ab4d">
+      <atributoSimple Id="2160626d-8a1e-4941-9563-951f35eaa07b" nombre="Frase" tipoDatos="String" longitud="0" esUnico="false" puedeSerNulo="false" />
+    </modeloDERAWebBDHasModeloAtributoSimple>
+  </modeloAtributoSimple>
+  <modeloAtributoCP>
+    <modeloDERAWebBDHasModeloAtributoCP Id="35293bcf-c63a-408d-ac15-ce909a5003d6">
+      <atributoCP Id="b33b1df6-c152-4df6-9dfe-2313c45fbe66" nombre="id1" tipoDatos="int" longitud="0" />
+    </modeloDERAWebBDHasModeloAtributoCP>
+    <modeloDERAWebBDHasModeloAtributoCP Id="85d6a947-de7d-4e3b-942c-22d0d0116ca6">
+      <atributoCP Id="2950840b-a683-4782-a908-fc0284531350" nombre="id2" tipoDatos="int" longitud="0" />
+    </modeloDERAWebBDHasModeloAtributoCP>
+  </modeloAtributoCP>
+</modeloDERAWebBD>

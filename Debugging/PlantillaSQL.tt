@@ -1,0 +1,50 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"#>
+<#@ output extension=".sql" #>
+<#@ JMGPVRCMAMBModeladoYLenguajeGrafico processor="JMGPVRCMAMBModeladoYLenguajeGraficoDirectiveProcessor" requires="fileName='EjemploModeloPokemon.JMGPVRCMAMB_DSLProyIPS'" #>
+
+<#
+	WriteLine ("CREATE DATABASE " + this.ModeloDERAWebBD.Titulo + ";\nUSE " + this.ModeloDERAWebBD.Titulo + ";\n");
+	foreach (Entidad ent in this.ModeloDERAWebBD.ModeloEntidad){
+		WriteLine ("\tCREATE TABLE IF NOT EXISTS "+ ent.Nombre + "\n\t(");
+		AtributoCP clave = ent.EntidadCP;
+		WriteLine ("\t " + clave.Nombre + " " + clave.TipoDatos + "(" + clave.Longitud + ") NOT NULL," );
+		foreach (AtributoSimple atr in ent.ObjetoAtributoSimple){
+			Write ("\t " + atr.Nombre + " " + atr.TipoDatos + "(" + atr.Longitud + ") ");
+			if (!atr.puedeSerNulo){
+				Write (" NOT NULL");
+			}
+			if (atr.esUnico){
+				Write (" UNIQUE");
+			}
+			Write (",\n");
+		}
+		WriteLine ("\t PRIMARY KEY (" + clave.Nombre + ")\n\t);");
+	}
+
+	foreach (Relacion rela in this.ModeloDERAWebBD.ModeloRelacion){
+		if (rela.cardinalidadRelacion == "(N,M)"){
+			AtributoCP claveDer = rela.RelacionDerEntidad.EntidadCP;
+			Entidad entDer = rela.RelacionDerEntidad;
+			AtributoCP claveIzq = rela.RelacionIzqEntidad.EntidadCP;
+			Entidad entIzq = rela.RelacionIzqEntidad;
+			WriteLine ("\tCREATE TABLE IF NOT EXISTS "+ rela.Nombre + "\n\t(");
+			WriteLine ("\t " + claveDer.Nombre + " " + claveDer.TipoDatos + "(" + claveDer.Longitud + ") NOT NULL,");
+			WriteLine ("\t " + claveIzq.Nombre + " " + claveIzq.TipoDatos + "(" + claveIzq.Longitud + ") NOT NULL,");
+			foreach (AtributoSimple atr in rela.ObjetoAtributoSimple){
+				Write ("\t " + atr.Nombre + " " + atr.TipoDatos + "(" + atr.Longitud + ") ");
+				if (!atr.puedeSerNulo){
+					Write (" NOT NULL");
+				}
+				if (atr.esUnico){
+					Write (" UNIQUE");
+				}
+				Write (",\n");
+			}
+			
+			WriteLine ("\t FOREIGN KEY (" + claveDer.Nombre + ") REFERENCES " + entDer.Nombre + " (" + claveDer.Nombre + "),");
+			
+			WriteLine ("\t FOREIGN KEY (" + claveIzq.Nombre + ") REFERENCES " + entIzq.Nombre + " (" + claveIzq.Nombre + ")\n\t);");
+		}
+	}
+#>
+

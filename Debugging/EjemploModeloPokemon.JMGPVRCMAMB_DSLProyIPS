@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modeloDERAWebBD xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="9960dc1e-5db4-4d4b-ad03-c24bbbf3af44" titulo="ModeloPokemon" xmlns="http://schemas.microsoft.com/dsltools/JMGPVRCMAMBModeladoYLenguajeGrafico">
+  <modeloEntidad>
+    <modeloDERAWebBDHasModeloEntidad Id="afeb156c-f3a5-4784-a0c8-3557586dfcc6">
+      <entidad Id="4f3d8812-d4b3-4667-9e64-b31b27f36888" nombre="Pokemon">
+        <objetoAtributoSimple>
+          <objetoReferencesObjetoAtributoSimple Id="de537bf4-4f22-460c-a7d5-61525a652de3">
+            <atributoSimpleMoniker Id="bc1c1efa-0bd1-494b-9718-a8ad0d45c484" />
+          </objetoReferencesObjetoAtributoSimple>
+          <objetoReferencesObjetoAtributoSimple Id="fd9aedf0-8ace-4096-97d0-9c7d84caf207">
+            <atributoSimpleMoniker Id="62d87560-21b1-459a-a240-b79691b4cba0" />
+          </objetoReferencesObjetoAtributoSimple>
+          <objetoReferencesObjetoAtributoSimple Id="f344a31c-f5b0-4886-9787-c7d79d0b66d2">
+            <atributoSimpleMoniker Id="50c07184-608f-4da0-a029-4f7859926446" />
+          </objetoReferencesObjetoAtributoSimple>
+        </objetoAtributoSimple>
+        <entidadCP>
+          <entidadReferencesEntidadCP Id="866a5783-0cfb-4de6-aaab-6e9d02287eda">
+            <atributoCPMoniker Id="605df4cb-0acf-4b1e-bd48-0c7c1526abfd" />
+          </entidadReferencesEntidadCP>
+        </entidadCP>
+        <entidadEGPaginaWeb>
+          <entidadReferencesEntidadEGPaginaWeb Id="a6959544-8293-42ed-8591-c0e70bdeeda3">
+            <eGPaginaWebMoniker Id="9926ab24-f66f-41f4-8a49-f7c81863c351" />
+          </entidadReferencesEntidadEGPaginaWeb>
+        </entidadEGPaginaWeb>
+      </entidad>
+    </modeloDERAWebBDHasModeloEntidad>
+    <modeloDERAWebBDHasModeloEntidad Id="055a1560-b130-43ca-9045-7bfbca3509ec">
+      <entidad Id="cc2d44f0-f709-4129-9c33-281750a1f4b6" nombre="Entrenador">
+        <objetoAtributoSimple>
+          <objetoReferencesObjetoAtributoSimple Id="98d4b627-c573-480e-a77b-2781c65cfd22">
+            <atributoSimpleMoniker Id="cb89afe8-0980-464d-8893-97d1619e55bc" />
+          </objetoReferencesObjetoAtributoSimple>
+          <objetoReferencesObjetoAtributoSimple Id="73f69b77-ef2a-4a74-875a-3b2c6924a50e">
+            <atributoSimpleMoniker Id="272cc219-6a15-485e-8c42-b7394c9b83b1" />
+          </objetoReferencesObjetoAtributoSimple>
+        </objetoAtributoSimple>
+        <entidadCP>
+          <entidadReferencesEntidadCP Id="3afe262d-d2b8-4a78-bd33-edf7dd8bd282">
+            <atributoCPMoniker Id="007f408c-dcc5-4e5c-96b2-b84ddb67681c" />
+          </entidadReferencesEntidadCP>
+        </entidadCP>
+        <entidadEGPaginaWeb>
+          <entidadReferencesEntidadEGPaginaWeb Id="24ca5a4d-a092-496f-9334-44bac2ea274b">
+            <eGPaginaWebMoniker Id="9926ab24-f66f-41f4-8a49-f7c81863c351" />
+          </entidadReferencesEntidadEGPaginaWeb>
+        </entidadEGPaginaWeb>
+      </entidad>
+    </modeloDERAWebBDHasModeloEntidad>
+    <modeloDERAWebBDHasModeloEntidad Id="242d314f-4e98-48d5-a7eb-0481603e4ad8">
+      <entidad Id="1129c1b0-5e37-45f1-9108-00b53cf586bd" nombre="Medallas">
+        <objetoAtributoSimple>
+          <objetoReferencesObjetoAtributoSimple Id="6f005970-6035-4c6d-b586-d740564e270f">
+            <atributoSimpleMoniker Id="fd851cac-65e7-4470-b802-151d0128cc8d" />
+          </objetoReferencesObjetoAtributoSimple>
+        </objetoAtributoSimple>
+        <entidadCP>
+          <entidadReferencesEntidadCP Id="7c2e79b1-a1f8-4fb5-b4f2-9782615b97f0">
+            <atributoCPMoniker Id="70fdb66d-04aa-4fa4-85ea-7eb5a03b148a" />
+          </entidadReferencesEntidadCP>
+        </entidadCP>
+        <entidadEGPaginaWeb>
+          <entidadReferencesEntidadEGPaginaWeb Id="00bbc277-cf96-49cf-bafb-2e720458bbf3">
+            <eGPaginaWebMoniker Id="9926ab24-f66f-41f4-8a49-f7c81863c351" />
+          </entidadReferencesEntidadEGPaginaWeb>
+        </entidadEGPaginaWeb>
+      </entidad>
+    </modeloDERAWebBDHasModeloEntidad>
+    <modeloDERAWebBDHasModeloEntidad Id="5f98389f-b28e-4442-b95d-d81723607f0e">
+      <entidad Id="9aa50be6-893c-4ce0-8890-b75bcaf75665" nombre="Gimnasio">
+        <objetoAtributoSimple>
+          <objetoReferencesObjetoAtributoSimple Id="2e12e098-0a36-4c97-8db0-8284f1b2e9cb">
+            <atributoSimpleMoniker Id="78fab807-2fdb-4812-9544-3441e80df796" />
+          </objetoReferencesObjetoAtributoSimple>
+        </objetoAtributoSimple>
+        <entidadCP>
+          <entidadReferencesEntidadCP Id="d4b11475-aede-4aeb-80d5-6d24990c951e">
+            <atributoCPMoniker Id="82e580d5-7b01-40c2-8133-36033ca46e67" />
+          </entidadReferencesEntidadCP>
+        </entidadCP>
+        <entidadEGPaginaWeb>
+          <entidadReferencesEntidadEGPaginaWeb Id="705be3e8-2656-4ed6-a8d9-2259c9c156bc">
+            <eGPaginaWebMoniker Id="9926ab24-f66f-41f4-8a49-f7c81863c351" />
+          </entidadReferencesEntidadEGPaginaWeb>
+        </entidadEGPaginaWeb>
+      </entidad>
+    </modeloDERAWebBDHasModeloEntidad>
+  </modeloEntidad>
+  <modeloRelacion>
+    <modeloDERAWebBDHasModeloRelacion Id="382ef94a-c3d7-4de7-8a27-98d7d563372d">
+      <relacion Id="685f10d1-e86e-4ba8-ad98-884a7b5e7bc2" nombre="tiene" cardinalidadRelacion="(1,N)">
+        <relacionDerEntidad>
+          <relacionReferencesRelacionDerEntidad Id="1e9d907a-4044-4284-90e2-74ee564450a1" cardinalidadDer="0..1">
+            <entidadMoniker Id="cc2d44f0-f709-4129-9c33-281750a1f4b6" />
+          </relacionReferencesRelacionDerEntidad>
+        </relacionDerEntidad>
+        <relacionIzqEntidad>
+          <relacionReferencesRelacionIzqEntidad Id="d52d5e78-4a39-4aa9-b1e4-54398e5aa380" cardinalidadIzq="0..*">
+            <entidadMoniker Id="4f3d8812-d4b3-4667-9e64-b31b27f36888" />
+          </relacionReferencesRelacionIzqEntidad>
+        </relacionIzqEntidad>
+      </relacion>
+    </modeloDERAWebBDHasModeloRelacion>
+    <modeloDERAWebBDHasModeloRelacion Id="12d8d13c-87f5-4497-8acf-e540fecbc9c0">
+      <relacion Id="728b3bf4-4588-4e30-8fec-176604ccdb19" nombre="gana" cardinalidadRelacion="(1,N)">
+        <relacionDerEntidad>
+          <relacionReferencesRelacionDerEntidad Id="f6106e90-aa2c-4ecf-aa12-ba616b76927a" cardinalidadDer="0..1">
+            <entidadMoniker Id="cc2d44f0-f709-4129-9c33-281750a1f4b6" />
+          </relacionReferencesRelacionDerEntidad>
+        </relacionDerEntidad>
+        <relacionIzqEntidad>
+          <relacionReferencesRelacionIzqEntidad Id="a06c61de-bcc4-4f46-b8b0-2bd8960c0678" cardinalidadIzq="0..*">
+            <entidadMoniker Id="1129c1b0-5e37-45f1-9108-00b53cf586bd" />
+          </relacionReferencesRelacionIzqEntidad>
+        </relacionIzqEntidad>
+      </relacion>
+    </modeloDERAWebBDHasModeloRelacion>
+    <modeloDERAWebBDHasModeloRelacion Id="4338601a-400b-4a01-9d58-c4de18bf83f9">
+      <relacion Id="28250cab-c000-4d85-a886-d14c046844b1" nombre="tieneBatalla" cardinalidadRelacion="(N,M)">
+        <objetoAtributoSimple>
+          <objetoReferencesObjetoAtributoSimple Id="7c6e75de-a929-42e7-834e-0c46ce0906cb">
+            <atributoSimpleMoniker Id="c8719e93-4252-44da-9bb9-8b366e29fbec" />
+          </objetoReferencesObjetoAtributoSimple>
+        </objetoAtributoSimple>
+        <relacionDerEntidad>
+          <relacionReferencesRelacionDerEntidad Id="a3ebda4a-9388-4227-8d96-fd19622a26dc" cardinalidadDer="0..*">
+            <entidadMoniker Id="4f3d8812-d4b3-4667-9e64-b31b27f36888" />
+          </relacionReferencesRelacionDerEntidad>
+        </relacionDerEntidad>
+        <relacionIzqEntidad>
+          <relacionReferencesRelacionIzqEntidad Id="78106ac9-5c4f-41c8-83de-39590b7a36c8" cardinalidadIzq="0..*">
+            <entidadMoniker Id="9aa50be6-893c-4ce0-8890-b75bcaf75665" />
+          </relacionReferencesRelacionIzqEntidad>
+        </relacionIzqEntidad>
+      </relacion>
+    </modeloDERAWebBDHasModeloRelacion>
+    <modeloDERAWebBDHasModeloRelacion Id="03596526-b659-4dd9-9d3b-c848e2296bef">
+      <relacion Id="fd770551-e516-438f-bb12-a475cced752b" nombre="compite" cardinalidadRelacion="(N,M)">
+        <objetoAtributoSimple>
+          <objetoReferencesObjetoAtributoSimple Id="a6655f4b-6119-47b0-ae6f-22262f2ece7d">
+            <atributoSimpleMoniker Id="b263ce69-89cc-44e5-8eea-c0e7db60f807" />
+          </objetoReferencesObjetoAtributoSimple>
+        </objetoAtributoSimple>
+        <relacionDerEntidad>
+          <relacionReferencesRelacionDerEntidad Id="0b5af1f4-4cb3-445f-8c98-bac89ce97b7b" cardinalidadDer="0..*">
+            <entidadMoniker Id="cc2d44f0-f709-4129-9c33-281750a1f4b6" />
+          </relacionReferencesRelacionDerEntidad>
+        </relacionDerEntidad>
+        <relacionIzqEntidad>
+          <relacionReferencesRelacionIzqEntidad Id="60f4d14d-fad5-48d5-a377-b1405c2eb9df" cardinalidadIzq="0..*">
+            <entidadMoniker Id="9aa50be6-893c-4ce0-8890-b75bcaf75665" />
+          </relacionReferencesRelacionIzqEntidad>
+        </relacionIzqEntidad>
+      </relacion>
+    </modeloDERAWebBDHasModeloRelacion>
+  </modeloRelacion>
+  <modeloEG>
+    <modeloDERAWebBDHasModeloEG Id="a238807f-2ee0-41f8-a48f-81d8b511437e">
+      <eGPortalWeb Id="5fcaa0c0-24a1-400d-9298-0874d6b47e47" color="3" tamaño="10" alineacion="Centrada" tipoLetra="Calibri" nombre="Estilo base pokemon" fondo="FFA420" />
+    </modeloDERAWebBDHasModeloEG>
+  </modeloEG>
+  <modeloAtributoSimple>
+    <modeloDERAWebBDHasModeloAtributoSimple Id="a6a9c508-a8de-42fb-b3f5-18c29f6225fa">
+      <atributoSimple Id="bc1c1efa-0bd1-494b-9718-a8ad0d45c484" nombre="Nombre" tipoDatos="Char" longitud="20" esUnico="true" puedeSerNulo="false" />
+    </modeloDERAWebBDHasModeloAtributoSimple>
+    <modeloDERAWebBDHasModeloAtributoSimple Id="3fe520d6-380b-4f72-929e-753df970f790">
+      <atributoSimple Id="62d87560-21b1-459a-a240-b79691b4cba0" nombre="Poder" tipoDatos="Char" longitud="20" esUnico="false" puedeSerNulo="false" />
+    </modeloDERAWebBDHasModeloAtributoSimple>
+    <modeloDERAWebBDHasModeloAtributoSimple Id="29156c07-5347-4811-bd0d-fa6b1aa14d54">
+      <atributoSimple Id="272cc219-6a15-485e-8c42-b7394c9b83b1" nombre="Nombre" tipoDatos="Char" longitud="20" esUnico="false" puedeSerNulo="false" />
+    </modeloDERAWebBDHasModeloAtributoSimple>
+    <modeloDERAWebBDHasModeloAtributoSimple Id="56f9571d-3001-4a8a-860c-01e6402e2e17">
+      <atributoSimple Id="cb89afe8-0980-464d-8893-97d1619e55bc" nombre="Edad" tipoDatos="Int" longitud="0" esUnico="false" puedeSerNulo="false" />
+    </modeloDERAWebBDHasModeloAtributoSimple>
+    <modeloDERAWebBDHasModeloAtributoSimple Id="862397d0-9f17-445d-ac63-5d9c44ce1d7a">
+      <atributoSimple Id="78fab807-2fdb-4812-9544-3441e80df796" nombre="Ciudad" tipoDatos="Char" longitud="20" esUnico="false" puedeSerNulo="false" />
+    </modeloDERAWebBDHasModeloAtributoSimple>
+    <modeloDERAWebBDHasModeloAtributoSimple Id="cae7552d-969f-4468-9cc1-4ce6fb93e98e">
+      <atributoSimple Id="fd851cac-65e7-4470-b802-151d0128cc8d" nombre="Tipo" tipoDatos="Char" longitud="20" esUnico="false" puedeSerNulo="false" />
+    </modeloDERAWebBDHasModeloAtributoSimple>
+    <modeloDERAWebBDHasModeloAtributoSimple Id="1e0970d7-754c-4498-9750-4b3e09a0cf2c">
+      <atributoSimple Id="c8719e93-4252-44da-9bb9-8b366e29fbec" nombre="fecha" tipoDatos="DateTime" longitud="0" esUnico="false" puedeSerNulo="false">
+        <atributoEGCampoFormulario>
+          <atributoReferencesAtributoEGCampoFormulario Id="37d54f10-12e0-48c3-993d-c5df27f1718f">
+            <eGCampoFormularioMoniker Id="c665a455-a0f3-4d67-9845-f99d9e72dbc1" />
+          </atributoReferencesAtributoEGCampoFormulario>
+        </atributoEGCampoFormulario>
+      </atributoSimple>
+    </modeloDERAWebBDHasModeloAtributoSimple>
+    <modeloDERAWebBDHasModeloAtributoSimple Id="2a8be104-88ee-4870-a4fe-02f2ddee4e08">
+      <atributoSimple Id="b263ce69-89cc-44e5-8eea-c0e7db60f807" nombre="fecha" tipoDatos="DateTime" longitud="0" esUnico="false" puedeSerNulo="false">
+        <atributoEGCampoFormulario>
+          <atributoReferencesAtributoEGCampoFormulario Id="0aeb96e0-7444-4d4e-82ce-ecba667ff69f">
+            <eGCampoFormularioMoniker Id="c665a455-a0f3-4d67-9845-f99d9e72dbc1" />
+          </atributoReferencesAtributoEGCampoFormulario>
+        </atributoEGCampoFormulario>
+      </atributoSimple>
+    </modeloDERAWebBDHasModeloAtributoSimple>
+    <modeloDERAWebBDHasModeloAtributoSimple Id="7a0d68f1-21be-41bf-a50d-65c213b8e6ce">
+      <atributoSimple Id="50c07184-608f-4da0-a029-4f7859926446" nombre="Tipo" tipoDatos="Char" longitud="20" esUnico="false" puedeSerNulo="false" />
+    </modeloDERAWebBDHasModeloAtributoSimple>
+  </modeloAtributoSimple>
+  <modeloAtributoCP>
+    <modeloDERAWebBDHasModeloAtributoCP Id="a0087152-53e6-405b-b344-cdfa71c41482">
+      <atributoCP Id="605df4cb-0acf-4b1e-bd48-0c7c1526abfd" nombre="idPokemon" tipoDatos="Int" longitud="10">
+        <atributoEGCampoFormulario>
+          <atributoReferencesAtributoEGCampoFormulario Id="105d236c-46ab-4e70-ad1b-658e0988becb">
+            <eGCampoFormularioMoniker Id="11acc696-6d12-43f1-bc27-3e4fda840b68" />
+          </atributoReferencesAtributoEGCampoFormulario>
+        </atributoEGCampoFormulario>
+      </atributoCP>
+    </modeloDERAWebBDHasModeloAtributoCP>
+    <modeloDERAWebBDHasModeloAtributoCP Id="9fe54b29-358b-45a6-8ee5-2ea3bf2cef40">
+      <atributoCP Id="007f408c-dcc5-4e5c-96b2-b84ddb67681c" nombre="idEntrenador" tipoDatos="Int" longitud="20">
+        <atributoEGCampoFormulario>
+          <atributoReferencesAtributoEGCampoFormulario Id="059a96f7-39b3-4605-b639-247a13b2f9fa">
+            <eGCampoFormularioMoniker Id="11acc696-6d12-43f1-bc27-3e4fda840b68" />
+          </atributoReferencesAtributoEGCampoFormulario>
+        </atributoEGCampoFormulario>
+      </atributoCP>
+    </modeloDERAWebBDHasModeloAtributoCP>
+    <modeloDERAWebBDHasModeloAtributoCP Id="7c8c2982-13d0-474b-8ead-98512e6a2833">
+      <atributoCP Id="82e580d5-7b01-40c2-8133-36033ca46e67" nombre="idGimnasio" tipoDatos="Int" longitud="20">
+        <atributoEGCampoFormulario>
+          <atributoReferencesAtributoEGCampoFormulario Id="4f8adf40-7c08-4a5d-b1df-2ca6feb048e1">
+            <eGCampoFormularioMoniker Id="11acc696-6d12-43f1-bc27-3e4fda840b68" />
+          </atributoReferencesAtributoEGCampoFormulario>
+        </atributoEGCampoFormulario>
+      </atributoCP>
+    </modeloDERAWebBDHasModeloAtributoCP>
+    <modeloDERAWebBDHasModeloAtributoCP Id="7f1e2485-e960-4a64-9d3e-3a8b283720f8">
+      <atributoCP Id="70fdb66d-04aa-4fa4-85ea-7eb5a03b148a" nombre="idMedalla" tipoDatos="Int" longitud="20">
+        <atributoEGCampoFormulario>
+          <atributoReferencesAtributoEGCampoFormulario Id="1c76f2c1-270c-422a-88df-f666d4103449">
+            <eGCampoFormularioMoniker Id="11acc696-6d12-43f1-bc27-3e4fda840b68" />
+          </atributoReferencesAtributoEGCampoFormulario>
+        </atributoEGCampoFormulario>
+      </atributoCP>
+    </modeloDERAWebBDHasModeloAtributoCP>
+  </modeloAtributoCP>
+  <modeloEGPaginaWeb>
+    <modeloDERAWebBDHasModeloEGPaginaWeb Id="4f948eaf-2c87-410c-80cf-65c70e8740a0">
+      <eGPaginaWeb Id="9926ab24-f66f-41f4-8a49-f7c81863c351" color="A8DE35" tamaño="10" alineacion="Centrada" tipoLetra="Calibri" nombre="Estilo entidades pokemon" />
+    </modeloDERAWebBDHasModeloEGPaginaWeb>
+  </modeloEGPaginaWeb>
+  <eGCampoFormulario>
+    <modeloDERAWebBDHasEGCampoFormulario Id="c93a4f92-cee5-40b1-9a39-6beb32c8708b">
+      <eGCampoFormulario Id="11acc696-6d12-43f1-bc27-3e4fda840b68" color="6" tamaño="14" alineacion="Centrada" tipoLetra="Comic Sans" nombre="Estilo claves Pokemon" formatoVisualizacion="area de texto" />
+    </modeloDERAWebBDHasEGCampoFormulario>
+    <modeloDERAWebBDHasEGCampoFormulario Id="225f7ec7-796e-47cd-97dd-3619c7f4475b">
+      <eGCampoFormulario Id="c665a455-a0f3-4d67-9845-f99d9e72dbc1" color="4" tamaño="9" alineacion="Centrada" tipoLetra="Calibri" nombre="Estilo atributos relaciones Pokemon" formatoVisualizacion="Fecha" />
+    </modeloDERAWebBDHasEGCampoFormulario>
+  </eGCampoFormulario>
+</modeloDERAWebBD>

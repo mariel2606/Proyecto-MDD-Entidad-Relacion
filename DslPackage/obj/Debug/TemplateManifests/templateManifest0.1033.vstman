@@ -1,0 +1,32 @@
+﻿<VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\1033\JMGPVRCMAMBModeladoYLenguajeGrafico</RelativePathOnDisk>
+    <TemplateFileName>CSharp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>{2785c4e8-220f-451f-a550-866a306653a2}</TemplateID>
+        <Name Package="{c9ab4052-fec2-4909-8643-7c9338a152f2}" ID="103" />
+        <Description Package="{c9ab4052-fec2-4909-8643-7c9338a152f2}" ID="102" />
+        <Icon Package="{c9ab4052-fec2-4909-8643-7c9338a152f2}" ID="201" />
+        <ProjectType>CSharp</ProjectType>
+        <SortOrder>360</SortOrder>
+        <DefaultName>JMGPVRCMAMBModeladoYLenguajeGrafico.JMGPVRCMAMB_DSLProyIPS</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>VisualBasic\1033\JMGPVRCMAMBModeladoYLenguajeGrafico</RelativePathOnDisk>
+    <TemplateFileName>VisualBasic.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>{3907ff6c-5919-47d5-b02c-3a55ebfd43c1}</TemplateID>
+        <Name Package="{c9ab4052-fec2-4909-8643-7c9338a152f2}" ID="103" />
+        <Description Package="{c9ab4052-fec2-4909-8643-7c9338a152f2}" ID="102" />
+        <Icon Package="{c9ab4052-fec2-4909-8643-7c9338a152f2}" ID="201" />
+        <ProjectType>VisualBasic</ProjectType>
+        <SortOrder>360</SortOrder>
+        <DefaultName>JMGPVRCMAMBModeladoYLenguajeGrafico.JMGPVRCMAMB_DSLProyIPS</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>

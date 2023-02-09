@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<jMGPVRCMAMBModeladoYLenguajeGraficoDiagram dslVersion="1.0.0.0" Id="0e498c2b-ffd8-4cbf-95e5-9d1505808ac4" absoluteBounds="0, 0, 11, 8.5" name="EjemploHito2">
+  <modeloDERAWebBDMoniker Id="ecd45d01-db80-40b1-a371-6ec09f01c1a0" />
+  <nestedChildShapes>
+    <metaforaEntidad Id="32e2da7c-e1f6-4035-92f2-425328f95530" absoluteBounds="0.5, 0.5, 2, 1">
+      <entidadMoniker Id="8c9b7bc3-b2a0-4642-bad3-fb13156002ed" />
+    </metaforaEntidad>
+    <metaforaEntidad Id="f290a738-9abb-46e3-b2da-053359ca19dc" absoluteBounds="7.25, 0.5, 2, 1">
+      <entidadMoniker Id="3d12bb5a-48ee-4920-b8cb-4d66ea37a879" />
+    </metaforaEntidad>
+    <metaforaAtributo Id="12ee9a37-3332-4b81-bad7-fcae50516b22" absoluteBounds="3.375, 0.5, 1, 0.5">
+      <atributoSimpleMoniker Id="cf865af3-32be-4fad-8fc3-d6d2b8bef003" />
+    </metaforaAtributo>
+    <metaforaAtributo Id="f8156762-d27a-45cb-bda2-1e8bca4e90c1" absoluteBounds="3.375, 1.25, 1, 0.5">
+      <atributoSimpleMoniker Id="738dae11-d7c7-48f3-b96c-344070235e2b" />
+    </metaforaAtributo>
+    <metaforaAtributo Id="3118594c-cbe5-49a3-acd4-dde64c626b7f" absoluteBounds="7.125, 2.125, 1, 0.5">
+      <atributoSimpleMoniker Id="8ea73fe8-514d-491c-abe6-68858e2f52d3" />
+    </metaforaAtributo>
+    <metaforaAtributo Id="f7143e82-44e1-4fde-94af-16acb7a9a979" absoluteBounds="8.25, 2.125, 1, 0.5">
+      <atributoSimpleMoniker Id="2160626d-8a1e-4941-9563-951f35eaa07b" />
+    </metaforaAtributo>
+    <metaforaConexion Id="b9e412ca-f46c-4ae5-a213-d08e10913be8" edgePoints="[(2.5 : 0.75); (3.375 : 0.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <objetoReferencesObjetoAtributoSimpleMoniker Id="40bb33e5-6396-4e53-a91d-bd3af9abd745" />
+      <nodes>
+        <metaforaEntidadMoniker Id="32e2da7c-e1f6-4035-92f2-425328f95530" />
+        <metaforaAtributoMoniker Id="12ee9a37-3332-4b81-bad7-fcae50516b22" />
+      </nodes>
+    </metaforaConexion>
+    <metaforaConexion Id="d30e04c9-d6b7-4656-8b8b-a7577ee46413" edgePoints="[(2.5 : 1.5); (2.75 : 1.5); (2.75 : 1.5); (3.375 : 1.5)]" manuallyRouted="true" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <objetoReferencesObjetoAtributoSimpleMoniker Id="e616cf80-9eb2-4e0a-955e-985188d245ce" />
+      <nodes>
+        <metaforaEntidadMoniker Id="32e2da7c-e1f6-4035-92f2-425328f95530" />
+        <metaforaAtributoMoniker Id="f8156762-d27a-45cb-bda2-1e8bca4e90c1" />
+      </nodes>
+    </metaforaConexion>
+    <metaforaConexion Id="ec35bd95-5a6f-43fb-8cb9-145f8a31df72" edgePoints="[(7.6875 : 1.5); (7.6875 : 2.12696081458769)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <objetoReferencesObjetoAtributoSimpleMoniker Id="651f12d6-681a-426c-8b02-5a69033eaa59" />
+      <nodes>
+        <metaforaEntidadMoniker Id="f290a738-9abb-46e3-b2da-053359ca19dc" />
+        <metaforaAtributoMoniker Id="3118594c-cbe5-49a3-acd4-dde64c626b7f" />
+      </nodes>
+    </metaforaConexion>
+    <metaforaConexion Id="a47270f9-bdf5-4179-8f5e-5c6c3f96b8c5" edgePoints="[(8.75 : 1.5); (8.75 : 2.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <objetoReferencesObjetoAtributoSimpleMoniker Id="b65b458f-79d5-4b8d-9bfb-d5c60daccbff" />
+      <nodes>
+        <metaforaEntidadMoniker Id="f290a738-9abb-46e3-b2da-053359ca19dc" />
+        <metaforaAtributoMoniker Id="f7143e82-44e1-4fde-94af-16acb7a9a979" />
+      </nodes>
+    </metaforaConexion>
+    <metaforaAtributoClave Id="2c2ba828-4c1f-44ef-819b-4e3801dee24a" absoluteBounds="1, 2.25, 1, 0.5">
+      <atributoCPMoniker Id="b33b1df6-c152-4df6-9dfe-2313c45fbe66" />
+    </metaforaAtributoClave>
+    <metaforaAtributoClave Id="82bf743f-5503-4a55-badb-3a3a7196de21" absoluteBounds="5.5, 0.75, 1, 0.5">
+      <atributoCPMoniker Id="2950840b-a683-4782-a908-fc0284531350" />
+    </metaforaAtributoClave>
+    <metaforaConexionCP Id="0ad2b22f-0bcd-4096-a82a-5d029aa1ab6a" edgePoints="[(1.5 : 1.5); (1.5 : 2.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <entidadReferencesEntidadCPMoniker Id="5a7c269b-3f9a-42c3-9022-f20ca7d1a083" />
+      <nodes>
+        <metaforaEntidadMoniker Id="32e2da7c-e1f6-4035-92f2-425328f95530" />
+        <metaforaAtributoClaveMoniker Id="2c2ba828-4c1f-44ef-819b-4e3801dee24a" />
+      </nodes>
+    </metaforaConexionCP>
+    <metaforaConexionCP Id="0d6f31be-dec7-4a04-8e09-dca7a04b9a15" edgePoints="[(7.25 : 1); (6.5 : 1)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <entidadReferencesEntidadCPMoniker Id="3d4138ee-e1c4-458f-b79e-b64274aa0684" />
+      <nodes>
+        <metaforaEntidadMoniker Id="f290a738-9abb-46e3-b2da-053359ca19dc" />
+        <metaforaAtributoClaveMoniker Id="82bf743f-5503-4a55-badb-3a3a7196de21" />
+      </nodes>
+    </metaforaConexionCP>
+  </nestedChildShapes>
+</jMGPVRCMAMBModeladoYLenguajeGraficoDiagram>

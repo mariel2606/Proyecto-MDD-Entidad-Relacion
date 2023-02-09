@@ -1,0 +1,148 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"language="C#" hostspecific="True"#>
+<#@ output extension=".php" #>
+<#@ JMGPVRCMAMBModeladoYLenguajeGrafico processor="JMGPVRCMAMBModeladoYLenguajeGraficoDirectiveProcessor" requires="fileName='EjemploModeloPokemon.JMGPVRCMAMB_DSLProyIPS'" #>
+
+<html>
+	<head>
+		<title><#=this.ModeloDERAWebBD.Titulo#></title>
+	</head>
+	<body bgcolor="#85C2DC">
+	<h1><#=this.ModeloDERAWebBD.Titulo#></h1>
+	<p>Paginas que contiene la web:</p>
+	<#
+	foreach (Entidad ent in this.ModeloDERAWebBD.ModeloEntidad){
+	#>
+		<a href="<#=ent.Nombre#>.php" title="<#=ent.Nombre#>"><#=ent.Nombre#></a>
+		<p></p>
+	<#
+	}
+	#>
+	<#
+	foreach (Relacion rela in this.ModeloDERAWebBD.ModeloRelacion){
+		if (rela.cardinalidadRelacion == "(N,M)"){
+		#>
+			<a href="<#=rela.Nombre#>.php" title="<#=rela.Nombre#>"><#=rela.Nombre#></a>
+			<p></p>
+		<#
+		}
+	}
+	#>
+	</body>
+</html>
+
+<#@ include file="EF.utility.CS.ttinclude" #>
+
+<#
+var fileManager=EntityFrameworkTemplateFileManager.Create(this);
+if (this.ModeloDERAWebBD.ModeloEntidad.Count>0){
+	foreach (Entidad ent in this.ModeloDERAWebBD.ModeloEntidad) {
+		fileManager.StartNewFile(ent.Nombre + ".php");
+		WriteLine ("<html>\n<head\n<title>\n\t"+ ent.Nombre + "\n</title>\n</head>");
+		if (ent.EntidadEGPaginaWeb != null){
+			WriteLine ("<body bgcolor=\"#" + ent.EntidadEGPaginaWeb.Color + "\">");
+		}
+		WriteLine ("<?php\n\t if (!(isset($_GET['var" + ent.EntidadCP.Nombre +
+		"\']))){\n\t\t?>\n\t\t<form>\n\t\t<h1>" + ent.Nombre + "</h1>");
+		WriteLine ("\t\t\t" + ent.EntidadCP.Nombre + ": <input name=\"var"
+		+ ent.EntidadCP.Nombre + "\" type=\"" + ent.EntidadCP.TipoDatos
+		+ "\" value=\"\" >");
+		foreach (AtributoSimple atr in ent.ObjetoAtributoSimple){
+			WriteLine ("\t\t\t" + atr.Nombre + ": <input name=\"var"
+			+ atr.Nombre + "\" type=\"" + atr.TipoDatos
+			+ "\" value=\"\" >");
+		}
+		WriteLine ("\t\t<input type=\"submit\" value=\"Alta\" />\n\t\t</form>\n\t\t<?php\n\t }\n\t else{\n\t\t $conex = mysqli_connect(\"localhost\",\"root\") or die(\"ERROR...\");\n\t\t mysqli_select_db($conex,\"" 
+		+ this.ModeloDERAWebBD.Titulo + "\") or die(\"ERROR CON LA BASE DE DATOS\");");
+		WriteLine ("\t\t $" + ent.EntidadCP.Nombre + " = $_GET['var"
+		+ ent.EntidadCP.Nombre + "'];");
+		foreach (AtributoSimple atr in ent.ObjetoAtributoSimple){
+			WriteLine ("\t\t $" + atr.Nombre + " = $_GET['var"
+			+ atr.Nombre + "'];");
+		}
+		Write ("\t\t $resultado = mysqli_query($conex,\"INSERT INTO "
+		+ ent.Nombre + " VALUES ('$" + ent.EntidadCP.Nombre + "'");
+		foreach (AtributoSimple atr in ent.ObjetoAtributoSimple){
+			Write (",'$" + atr.Nombre + "'");
+		}
+		WriteLine (")\");");
+		WriteLine ("\t\t if ($resultado)\n\t\t\techo \"Datos Insertados\";\n\t\t else \n\t\t\techo\"Error en la inserción\";\n\t\t mysqli_close($conex);\n\t }\n?>\n</body>\n</html>\n");
+		#>
+		<p></p>
+		<center><input type="button" value="Guardar" /></center>
+		<p></p>
+		<center><input type="button" onclick="history.back()" name="Volver" value="Volver" /></center>
+		<#	
+	}
+}
+
+if (this.ModeloDERAWebBD.ModeloRelacion.Count>0){
+	foreach (Relacion rela in this.ModeloDERAWebBD.ModeloRelacion){
+	fileManager.StartNewFile(rela.Nombre + ".php");
+		if (rela.cardinalidadRelacion == "(N,M)"){
+			WriteLine ("<html>\n<head\n<title>\n\t"+ rela.Nombre + "\n</title>\n</head>");
+			WriteLine ("<body bgcolor=\"#" + this.ModeloDERAWebBD.ModeloEG.Fondo + "\">");
+			WriteLine ("<?php\n\tif (!(isset($_GET['var" + rela.RelacionDerEntidad.EntidadCP.Nombre +
+			"\']))){\n\t\tif (!(isset($_GET['var" + rela.RelacionIzqEntidad.EntidadCP.Nombre +
+			"\']))){\n\t\t\t?>\n\t\t\t<form>\n\t\t\t<h1>" + rela.Nombre + "</h1>");
+			WriteLine ("\t\t\t\t" + rela.RelacionDerEntidad.EntidadCP.Nombre + ": <input name=\"var"
+			+ rela.RelacionDerEntidad.EntidadCP.Nombre + "\" type=\"" + rela.RelacionDerEntidad.EntidadCP.TipoDatos
+			+ "\" value=\"\" >");
+			WriteLine ("\t\t\t\t" + rela.RelacionIzqEntidad.EntidadCP.Nombre + ": <input name=\"var"
+			+ rela.RelacionIzqEntidad.EntidadCP.Nombre + "\" type=\"" + rela.RelacionIzqEntidad.EntidadCP.TipoDatos
+			+ "\" value=\"\" >");
+			foreach (AtributoSimple atr in rela.ObjetoAtributoSimple){
+				WriteLine ("\t\t\t\t" + atr.Nombre + ": <input name=\"var"
+				+ atr.Nombre + "\" type=\"" + atr.TipoDatos
+				+ "\" value=\"\" >");
+			}
+			WriteLine ("\t\t\t<input type=\"submit\" value=\"Alta\" />\n\t\t\t</form>\n\t\t\t<?php");
+			WriteLine ("\t\t }\n\t\t else{\n\t\t\t $conex = mysqli_connect(\"localhost\",\"root\") or die(\"ERROR...\");\n\t\t\t mysqli_select_db($conex,\"" 
+			+ this.ModeloDERAWebBD.Titulo + "\") or die(\"ERROR CON LA BASE DE DATOS\");");
+			WriteLine ("\t\t\t $" + rela.RelacionDerEntidad.EntidadCP.Nombre + " = $_GET['var"
+			+ rela.RelacionDerEntidad.EntidadCP.Nombre + "'];");
+			WriteLine ("\t\t\t $" + rela.RelacionIzqEntidad.EntidadCP.Nombre + " = $_GET['var"
+			+ rela.RelacionIzqEntidad.EntidadCP.Nombre + "'];");
+			foreach (AtributoSimple atr in rela.ObjetoAtributoSimple){
+				WriteLine ("\t\t\t $" + atr.Nombre + " = $_GET['var"
+				+ atr.Nombre + "'];");
+			}
+			Write ("\t\t\t $resultado = mysqli_query($conex,\"INSERT INTO "
+			+ rela.Nombre + " VALUES ('$" + rela.RelacionDerEntidad.EntidadCP.Nombre
+			+ "','$" + rela.RelacionIzqEntidad.EntidadCP.Nombre);
+			foreach (AtributoSimple atr in rela.ObjetoAtributoSimple){
+				Write (",'$" + atr.Nombre + "'");
+			}
+			WriteLine (")\");");
+			WriteLine ("\t\t\t if ($resultado)\n\t\t\t\techo\"Datos Insertados\";\n\t\t\t else \n\t\t\t\techo\"Error en la inserción\";\n\t\t\t mysqli_close($conex);");
+			
+			WriteLine ("\t\t }\n\t }else{\n\t\t $conex = mysqli_connect(\"localhost\",\"root\") or die(\"ERROR...\");\n\t\t mysqli_select_db($conex,\"" 
+			+ this.ModeloDERAWebBD.Titulo + "\") or die(\"ERROR CON LA BASE DE DATOS\");");
+			WriteLine ("\t\t $" + rela.RelacionDerEntidad.EntidadCP.Nombre + " = $_GET['var"
+			+ rela.RelacionDerEntidad.EntidadCP.Nombre + "'];");
+			WriteLine ("\t\t $" + rela.RelacionIzqEntidad.EntidadCP.Nombre + " = $_GET['var"
+			+ rela.RelacionIzqEntidad.EntidadCP.Nombre + "'];");
+			foreach (AtributoSimple atr in rela.ObjetoAtributoSimple){
+				WriteLine ("\t\t $" + atr.Nombre + " = $_GET['var"
+				+ atr.Nombre + "'];");
+			}
+			Write ("\t\t $resultado = mysqli_query($conex,\"INSERT INTO "
+			+ rela.Nombre + " VALUES ('$" + rela.RelacionDerEntidad.EntidadCP.Nombre
+			+ "','$" + rela.RelacionIzqEntidad.EntidadCP.Nombre + "'");
+			foreach (AtributoSimple atr in rela.ObjetoAtributoSimple){
+				Write (",'$" + atr.Nombre + "'");
+			}
+			WriteLine (")\");");
+			WriteLine ("\t\t if ($resultado)\n\t\t\techo\"Datos Insertados\";\n\t\t else \n\t\t\techo\"Error en la inserción\";\n\t\t mysqli_close($conex);");
+
+			WriteLine ("\t }\n?>\n</body>\n</html>\n");
+			#>
+			<p></p>
+			<center><input type="button" value="Guardar" /></center>
+			<p></p>
+			<center><input type="button" onclick="history.back()" name="Volver" value="Volver" /></center>
+			<#	
+			}
+		}
+	}
+	fileManager.Process();
+#>

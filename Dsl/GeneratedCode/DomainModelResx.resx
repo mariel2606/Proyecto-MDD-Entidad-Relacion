@@ -1,0 +1,1303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.JMGPVRCMAMBModeladoYLenguajeGraficoDomainModel.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.JMGPVRCMAMBModeladoYLenguajeGrafico</value>
+    <comment>Description for DslLibrary &apos;JMGPVRCMAMBModeladoYLenguajeGrafico&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.JMGPVRCMAMBModeladoYLenguajeGraficoDomainModel.DisplayName" xml:space="preserve">
+    <value>JMGPVRCMAMBModeladoYLenguajeGrafico</value>
+    <comment>DisplayName for DslLibrary &apos;JMGPVRCMAMBModeladoYLenguajeGrafico&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBD.Description" xml:space="preserve">
+    <value>The root in which all other elements are embedded. Appears as a diagram.</value>
+    <comment>Description for DomainClass &apos;ModeloDERAWebBD&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBD.DisplayName" xml:space="preserve">
+    <value>Modelo DERAWeb BD</value>
+    <comment>DisplayName for DomainClass &apos;ModeloDERAWebBD&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBD/Titulo.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBD.Titulo</value>
+    <comment>Description for DomainProperty &apos;Titulo&apos; on DomainClass &apos;ModeloDERAWebBD&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBD/Titulo.DisplayName" xml:space="preserve">
+    <value>Titulo</value>
+    <comment>DisplayName for DomainProperty &apos;Titulo&apos; on DomainClass &apos;ModeloDERAWebBD&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Entidad.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Entidad</value>
+    <comment>Description for DomainClass &apos;Entidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Entidad.DisplayName" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>DisplayName for DomainClass &apos;Entidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Atributo.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Atributo</value>
+    <comment>Description for DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Atributo.DisplayName" xml:space="preserve">
+    <value>Atributo</value>
+    <comment>DisplayName for DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Atributo/Nombre.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Atributo.Nombre</value>
+    <comment>Description for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Atributo/Nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Atributo/TipoDatos.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Atributo.Tipo Datos</value>
+    <comment>Description for DomainProperty &apos;TipoDatos&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Atributo/TipoDatos.DisplayName" xml:space="preserve">
+    <value>Tipo Datos</value>
+    <comment>DisplayName for DomainProperty &apos;TipoDatos&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Atributo/Longitud.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Atributo.Longitud</value>
+    <comment>Description for DomainProperty &apos;Longitud&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Atributo/Longitud.DisplayName" xml:space="preserve">
+    <value>Longitud</value>
+    <comment>DisplayName for DomainProperty &apos;Longitud&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Atributo/NombreTipo.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Atributo.Nombre Tipo</value>
+    <comment>Description for DomainProperty &apos;NombreTipo&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Atributo/NombreTipo.DisplayName" xml:space="preserve">
+    <value>Nombre Tipo</value>
+    <comment>DisplayName for DomainProperty &apos;NombreTipo&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Relacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Relacion</value>
+    <comment>Description for DomainClass &apos;Relacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Relacion.DisplayName" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>DisplayName for DomainClass &apos;Relacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Relacion/cardinalidadRelacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Relacion.Cardinalidad Relacion</value>
+    <comment>Description for DomainProperty &apos;cardinalidadRelacion&apos; on DomainClass &apos;Relacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Relacion/cardinalidadRelacion.DisplayName" xml:space="preserve">
+    <value>Cardinalidad Relacion</value>
+    <comment>DisplayName for DomainProperty &apos;cardinalidadRelacion&apos; on DomainClass &apos;Relacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Objeto.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Objeto</value>
+    <comment>Description for DomainClass &apos;Objeto&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Objeto.DisplayName" xml:space="preserve">
+    <value>Objeto</value>
+    <comment>DisplayName for DomainClass &apos;Objeto&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Objeto/Nombre.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Objeto.Nombre</value>
+    <comment>Description for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Objeto&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.Objeto/Nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Objeto&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico</value>
+    <comment>Description for DomainClass &apos;EstiloGrafico&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico.DisplayName" xml:space="preserve">
+    <value>Estilo Grafico</value>
+    <comment>DisplayName for DomainClass &apos;EstiloGrafico&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico/Color.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico.Color</value>
+    <comment>Description for DomainProperty &apos;Color&apos; on DomainClass &apos;EstiloGrafico&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico/Color.DisplayName" xml:space="preserve">
+    <value>Color</value>
+    <comment>DisplayName for DomainProperty &apos;Color&apos; on DomainClass &apos;EstiloGrafico&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico/Tamaño.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico.Tamaño</value>
+    <comment>Description for DomainProperty &apos;Tamaño&apos; on DomainClass &apos;EstiloGrafico&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico/Tamaño.DisplayName" xml:space="preserve">
+    <value>Tamaño</value>
+    <comment>DisplayName for DomainProperty &apos;Tamaño&apos; on DomainClass &apos;EstiloGrafico&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico/Alineacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico.Alineacion</value>
+    <comment>Description for DomainProperty &apos;Alineacion&apos; on DomainClass &apos;EstiloGrafico&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico/Alineacion.DisplayName" xml:space="preserve">
+    <value>Alineacion</value>
+    <comment>DisplayName for DomainProperty &apos;Alineacion&apos; on DomainClass &apos;EstiloGrafico&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico/TipoLetra.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico.Tipo Letra</value>
+    <comment>Description for DomainProperty &apos;TipoLetra&apos; on DomainClass &apos;EstiloGrafico&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico/TipoLetra.DisplayName" xml:space="preserve">
+    <value>Tipo Letra</value>
+    <comment>DisplayName for DomainProperty &apos;TipoLetra&apos; on DomainClass &apos;EstiloGrafico&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico/Nombre.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico.Nombre</value>
+    <comment>Description for DomainProperty &apos;Nombre&apos; on DomainClass &apos;EstiloGrafico&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EstiloGrafico/Nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;EstiloGrafico&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EGPortalWeb.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EGPortalWeb</value>
+    <comment>Description for DomainClass &apos;EGPortalWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EGPortalWeb.DisplayName" xml:space="preserve">
+    <value>EGPortal Web</value>
+    <comment>DisplayName for DomainClass &apos;EGPortalWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EGPortalWeb/Fondo.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EGPortalWeb.Fondo</value>
+    <comment>Description for DomainProperty &apos;Fondo&apos; on DomainClass &apos;EGPortalWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EGPortalWeb/Fondo.DisplayName" xml:space="preserve">
+    <value>Fondo</value>
+    <comment>DisplayName for DomainProperty &apos;Fondo&apos; on DomainClass &apos;EGPortalWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EGPaginaWeb.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EGPaginaWeb</value>
+    <comment>Description for DomainClass &apos;EGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EGPaginaWeb.DisplayName" xml:space="preserve">
+    <value>EGPagina Web</value>
+    <comment>DisplayName for DomainClass &apos;EGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EGCampoFormulario.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EGCampoFormulario</value>
+    <comment>Description for DomainClass &apos;EGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EGCampoFormulario.DisplayName" xml:space="preserve">
+    <value>EGCampo Formulario</value>
+    <comment>DisplayName for DomainClass &apos;EGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EGCampoFormulario/FormatoVisualizacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EGCampoFormulario.Formato Visualizacion</value>
+    <comment>Description for DomainProperty &apos;FormatoVisualizacion&apos; on DomainClass &apos;EGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EGCampoFormulario/FormatoVisualizacion.DisplayName" xml:space="preserve">
+    <value>Formato Visualizacion</value>
+    <comment>DisplayName for DomainProperty &apos;FormatoVisualizacion&apos; on DomainClass &apos;EGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoCP.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoCP</value>
+    <comment>Description for DomainClass &apos;AtributoCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoCP.DisplayName" xml:space="preserve">
+    <value>Atributo CP</value>
+    <comment>DisplayName for DomainClass &apos;AtributoCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoSimple.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoSimple</value>
+    <comment>Description for DomainClass &apos;AtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoSimple.DisplayName" xml:space="preserve">
+    <value>Atributo Simple</value>
+    <comment>DisplayName for DomainClass &apos;AtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoSimple/esUnico.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoSimple.Es Unico</value>
+    <comment>Description for DomainProperty &apos;esUnico&apos; on DomainClass &apos;AtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoSimple/esUnico.DisplayName" xml:space="preserve">
+    <value>Es Unico</value>
+    <comment>DisplayName for DomainProperty &apos;esUnico&apos; on DomainClass &apos;AtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoSimple/puedeSerNulo.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoSimple.Puede Ser Nulo</value>
+    <comment>Description for DomainProperty &apos;puedeSerNulo&apos; on DomainClass &apos;AtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoSimple/puedeSerNulo.DisplayName" xml:space="preserve">
+    <value>Puede Ser Nulo</value>
+    <comment>DisplayName for DomainProperty &apos;puedeSerNulo&apos; on DomainClass &apos;AtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEntidad.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEntidad</value>
+    <comment>Description for DomainClass &apos;ModeloDERAWebBDHasModeloEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEntidad.DisplayName" xml:space="preserve">
+    <value>Modelo DERAWeb BDHas Modelo Entidad</value>
+    <comment>DisplayName for DomainClass &apos;ModeloDERAWebBDHasModeloEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEntidad/ModeloDERAWebBD.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEntidad.ModeloDERAWebBD</value>
+    <comment>Description for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEntidad/ModeloDERAWebBD.DisplayName" xml:space="preserve">
+    <value>Modelo DERAWeb BD</value>
+    <comment>DisplayName for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEntidad/ModeloDERAWebBD.PropertyDisplayName" xml:space="preserve">
+    <value>Modelo Entidad</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEntidad/Entidad.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEntidad.Entidad</value>
+    <comment>Description for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEntidad/Entidad.DisplayName" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>DisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEntidad/Entidad.PropertyDisplayName" xml:space="preserve">
+    <value>Entidad Modelo</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloRelacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloRelacion</value>
+    <comment>Description for DomainClass &apos;ModeloDERAWebBDHasModeloRelacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloRelacion.DisplayName" xml:space="preserve">
+    <value>Modelo DERAWeb BDHas Modelo Relacion</value>
+    <comment>DisplayName for DomainClass &apos;ModeloDERAWebBDHasModeloRelacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloRelacion/ModeloDERAWebBD.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloRelacion.ModeloDERAWebBD</value>
+    <comment>Description for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloRelacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloRelacion/ModeloDERAWebBD.DisplayName" xml:space="preserve">
+    <value>Modelo DERAWeb BD</value>
+    <comment>DisplayName for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloRelacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloRelacion/ModeloDERAWebBD.PropertyDisplayName" xml:space="preserve">
+    <value>Modelo Relacion</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloRelacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloRelacion/Relacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloRelacion.Relacion</value>
+    <comment>Description for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloRelacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloRelacion/Relacion.DisplayName" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>DisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloRelacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloRelacion/Relacion.PropertyDisplayName" xml:space="preserve">
+    <value>Relacion Modelo</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloRelacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionNEntidad.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionNEntidad</value>
+    <comment>Description for DomainClass &apos;RelacionReferencesRelacionNEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionNEntidad.DisplayName" xml:space="preserve">
+    <value>Relacion References Relacion NEntidad</value>
+    <comment>DisplayName for DomainClass &apos;RelacionReferencesRelacionNEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionNEntidad/cardilidad.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionNEntidad.Cardilidad</value>
+    <comment>Description for DomainProperty &apos;cardilidad&apos; on DomainClass &apos;RelacionReferencesRelacionNEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionNEntidad/cardilidad.DisplayName" xml:space="preserve">
+    <value>Cardilidad</value>
+    <comment>DisplayName for DomainProperty &apos;cardilidad&apos; on DomainClass &apos;RelacionReferencesRelacionNEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionNEntidad/Relacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionNEntidad.Relacion</value>
+    <comment>Description for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;RelacionReferencesRelacionNEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionNEntidad/Relacion.DisplayName" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>DisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;RelacionReferencesRelacionNEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionNEntidad/Relacion.PropertyDisplayName" xml:space="preserve">
+    <value>Relacion NEntidad</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;RelacionReferencesRelacionNEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionNEntidad/Entidad.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionNEntidad.Entidad</value>
+    <comment>Description for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;RelacionReferencesRelacionNEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionNEntidad/Entidad.DisplayName" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>DisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;RelacionReferencesRelacionNEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionNEntidad/Entidad.PropertyDisplayName" xml:space="preserve">
+    <value>Entidad Relacion N</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;RelacionReferencesRelacionNEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEG.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEG</value>
+    <comment>Description for DomainClass &apos;ModeloDERAWebBDHasModeloEG&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEG.DisplayName" xml:space="preserve">
+    <value>Modelo DERAWeb BDHas Modelo EG</value>
+    <comment>DisplayName for DomainClass &apos;ModeloDERAWebBDHasModeloEG&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEG/ModeloDERAWebBD.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEG.ModeloDERAWebBD</value>
+    <comment>Description for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEG&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEG/ModeloDERAWebBD.DisplayName" xml:space="preserve">
+    <value>Modelo DERAWeb BD</value>
+    <comment>DisplayName for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEG&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEG/ModeloDERAWebBD.PropertyDisplayName" xml:space="preserve">
+    <value>Modelo EG</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEG&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEG/EGPortalWeb.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEG.EGPortalWeb</value>
+    <comment>Description for DomainRole &apos;EGPortalWeb&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEG&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEG/EGPortalWeb.DisplayName" xml:space="preserve">
+    <value>EGPortal Web</value>
+    <comment>DisplayName for DomainRole &apos;EGPortalWeb&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEG&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEG/EGPortalWeb.PropertyDisplayName" xml:space="preserve">
+    <value>EGModelo</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EGPortalWeb&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEG&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ObjetoReferencesObjetoAtributoSimple.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ObjetoReferencesObjetoAtributoSimple</value>
+    <comment>Description for DomainClass &apos;ObjetoReferencesObjetoAtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ObjetoReferencesObjetoAtributoSimple.DisplayName" xml:space="preserve">
+    <value>Objeto References Objeto Atributo Simple</value>
+    <comment>DisplayName for DomainClass &apos;ObjetoReferencesObjetoAtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ObjetoReferencesObjetoAtributoSimple/Objeto.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ObjetoReferencesObjetoAtributoSimple.Objeto</value>
+    <comment>Description for DomainRole &apos;Objeto&apos; on DomainRelationship &apos;ObjetoReferencesObjetoAtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ObjetoReferencesObjetoAtributoSimple/Objeto.DisplayName" xml:space="preserve">
+    <value>Objeto</value>
+    <comment>DisplayName for DomainRole &apos;Objeto&apos; on DomainRelationship &apos;ObjetoReferencesObjetoAtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ObjetoReferencesObjetoAtributoSimple/Objeto.PropertyDisplayName" xml:space="preserve">
+    <value>Objeto Atributo Simple</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Objeto&apos; on DomainRelationship &apos;ObjetoReferencesObjetoAtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ObjetoReferencesObjetoAtributoSimple/AtributoSimple.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ObjetoReferencesObjetoAtributoSimple.AtributoSimple</value>
+    <comment>Description for DomainRole &apos;AtributoSimple&apos; on DomainRelationship &apos;ObjetoReferencesObjetoAtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ObjetoReferencesObjetoAtributoSimple/AtributoSimple.DisplayName" xml:space="preserve">
+    <value>Atributo Simple</value>
+    <comment>DisplayName for DomainRole &apos;AtributoSimple&apos; on DomainRelationship &apos;ObjetoReferencesObjetoAtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ObjetoReferencesObjetoAtributoSimple/AtributoSimple.PropertyDisplayName" xml:space="preserve">
+    <value>Atributo Simple Objeto</value>
+    <comment>PropertyDisplayName for DomainRole &apos;AtributoSimple&apos; on DomainRelationship &apos;ObjetoReferencesObjetoAtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoSimple.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoSimple</value>
+    <comment>Description for DomainClass &apos;ModeloDERAWebBDHasModeloAtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoSimple.DisplayName" xml:space="preserve">
+    <value>Modelo DERAWeb BDHas Modelo Atributo Simple</value>
+    <comment>DisplayName for DomainClass &apos;ModeloDERAWebBDHasModeloAtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoSimple/ModeloDERAWebBD.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoSimple.ModeloDERAWebBD</value>
+    <comment>Description for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloAtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoSimple/ModeloDERAWebBD.DisplayName" xml:space="preserve">
+    <value>Modelo DERAWeb BD</value>
+    <comment>DisplayName for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloAtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoSimple/ModeloDERAWebBD.PropertyDisplayName" xml:space="preserve">
+    <value>Modelo Atributo Simple</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloAtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoSimple/AtributoSimple.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoSimple.AtributoSimple</value>
+    <comment>Description for DomainRole &apos;AtributoSimple&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloAtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoSimple/AtributoSimple.DisplayName" xml:space="preserve">
+    <value>Atributo Simple</value>
+    <comment>DisplayName for DomainRole &apos;AtributoSimple&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloAtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoSimple/AtributoSimple.PropertyDisplayName" xml:space="preserve">
+    <value>Atributo Simple Modelo</value>
+    <comment>PropertyDisplayName for DomainRole &apos;AtributoSimple&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloAtributoSimple&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoCP.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoCP</value>
+    <comment>Description for DomainClass &apos;ModeloDERAWebBDHasModeloAtributoCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoCP.DisplayName" xml:space="preserve">
+    <value>Modelo DERAWeb BDHas Modelo Atributo CP</value>
+    <comment>DisplayName for DomainClass &apos;ModeloDERAWebBDHasModeloAtributoCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoCP/ModeloDERAWebBD.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoCP.ModeloDERAWebBD</value>
+    <comment>Description for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloAtributoCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoCP/ModeloDERAWebBD.DisplayName" xml:space="preserve">
+    <value>Modelo DERAWeb BD</value>
+    <comment>DisplayName for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloAtributoCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoCP/ModeloDERAWebBD.PropertyDisplayName" xml:space="preserve">
+    <value>Modelo Atributo CP</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloAtributoCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoCP/AtributoCP.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoCP.AtributoCP</value>
+    <comment>Description for DomainRole &apos;AtributoCP&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloAtributoCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoCP/AtributoCP.DisplayName" xml:space="preserve">
+    <value>Atributo CP</value>
+    <comment>DisplayName for DomainRole &apos;AtributoCP&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloAtributoCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloAtributoCP/AtributoCP.PropertyDisplayName" xml:space="preserve">
+    <value>Atributo CPModelo</value>
+    <comment>PropertyDisplayName for DomainRole &apos;AtributoCP&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloAtributoCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadCP.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadCP</value>
+    <comment>Description for DomainClass &apos;EntidadReferencesEntidadCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadCP.DisplayName" xml:space="preserve">
+    <value>Entidad References Entidad CP</value>
+    <comment>DisplayName for DomainClass &apos;EntidadReferencesEntidadCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadCP/Entidad.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadCP.Entidad</value>
+    <comment>Description for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadReferencesEntidadCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadCP/Entidad.DisplayName" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>DisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadReferencesEntidadCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadCP/Entidad.PropertyDisplayName" xml:space="preserve">
+    <value>Entidad CP</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadReferencesEntidadCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadCP/AtributoCP.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadCP.AtributoCP</value>
+    <comment>Description for DomainRole &apos;AtributoCP&apos; on DomainRelationship &apos;EntidadReferencesEntidadCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadCP/AtributoCP.DisplayName" xml:space="preserve">
+    <value>Atributo CP</value>
+    <comment>DisplayName for DomainRole &apos;AtributoCP&apos; on DomainRelationship &apos;EntidadReferencesEntidadCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadCP/AtributoCP.PropertyDisplayName" xml:space="preserve">
+    <value>CPEntidad</value>
+    <comment>PropertyDisplayName for DomainRole &apos;AtributoCP&apos; on DomainRelationship &apos;EntidadReferencesEntidadCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEGPaginaWeb.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEGPaginaWeb</value>
+    <comment>Description for DomainClass &apos;ModeloDERAWebBDHasModeloEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEGPaginaWeb.DisplayName" xml:space="preserve">
+    <value>Modelo DERAWeb BDHas Modelo EGPagina Web</value>
+    <comment>DisplayName for DomainClass &apos;ModeloDERAWebBDHasModeloEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEGPaginaWeb/ModeloDERAWebBD.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEGPaginaWeb.ModeloDERAWebBD</value>
+    <comment>Description for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEGPaginaWeb/ModeloDERAWebBD.DisplayName" xml:space="preserve">
+    <value>Modelo DERAWeb BD</value>
+    <comment>DisplayName for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEGPaginaWeb/ModeloDERAWebBD.PropertyDisplayName" xml:space="preserve">
+    <value>Modelo EGPagina Web</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEGPaginaWeb/EGPaginaWeb.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEGPaginaWeb.EGPaginaWeb</value>
+    <comment>Description for DomainRole &apos;EGPaginaWeb&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEGPaginaWeb/EGPaginaWeb.DisplayName" xml:space="preserve">
+    <value>EGPagina Web</value>
+    <comment>DisplayName for DomainRole &apos;EGPaginaWeb&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasModeloEGPaginaWeb/EGPaginaWeb.PropertyDisplayName" xml:space="preserve">
+    <value>EGPagina Web Modelo</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EGPaginaWeb&apos; on DomainRelationship &apos;ModeloDERAWebBDHasModeloEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadEGPaginaWeb.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadEGPaginaWeb</value>
+    <comment>Description for DomainClass &apos;EntidadReferencesEntidadEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadEGPaginaWeb.DisplayName" xml:space="preserve">
+    <value>Entidad References Entidad EGPagina Web</value>
+    <comment>DisplayName for DomainClass &apos;EntidadReferencesEntidadEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadEGPaginaWeb/Entidad.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadEGPaginaWeb.Entidad</value>
+    <comment>Description for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadReferencesEntidadEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadEGPaginaWeb/Entidad.DisplayName" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>DisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadReferencesEntidadEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadEGPaginaWeb/Entidad.PropertyDisplayName" xml:space="preserve">
+    <value>Entidad EGPagina Web</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;EntidadReferencesEntidadEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadEGPaginaWeb/EGPaginaWeb.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadEGPaginaWeb.EGPaginaWeb</value>
+    <comment>Description for DomainRole &apos;EGPaginaWeb&apos; on DomainRelationship &apos;EntidadReferencesEntidadEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadEGPaginaWeb/EGPaginaWeb.DisplayName" xml:space="preserve">
+    <value>EGPagina Web</value>
+    <comment>DisplayName for DomainRole &apos;EGPaginaWeb&apos; on DomainRelationship &apos;EntidadReferencesEntidadEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.EntidadReferencesEntidadEGPaginaWeb/EGPaginaWeb.PropertyDisplayName" xml:space="preserve">
+    <value>EGPagina Web Entidad</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EGPaginaWeb&apos; on DomainRelationship &apos;EntidadReferencesEntidadEGPaginaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasEGCampoFormulario.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasEGCampoFormulario</value>
+    <comment>Description for DomainClass &apos;ModeloDERAWebBDHasEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasEGCampoFormulario.DisplayName" xml:space="preserve">
+    <value>Modelo DERAWeb BDHas EGCampo Formulario</value>
+    <comment>DisplayName for DomainClass &apos;ModeloDERAWebBDHasEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasEGCampoFormulario/ModeloDERAWebBD.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasEGCampoFormulario.ModeloDERAWebBD</value>
+    <comment>Description for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasEGCampoFormulario/ModeloDERAWebBD.DisplayName" xml:space="preserve">
+    <value>Modelo DERAWeb BD</value>
+    <comment>DisplayName for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasEGCampoFormulario/ModeloDERAWebBD.PropertyDisplayName" xml:space="preserve">
+    <value>EGCampo Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ModeloDERAWebBD&apos; on DomainRelationship &apos;ModeloDERAWebBDHasEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasEGCampoFormulario/EGCampoFormulario.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasEGCampoFormulario.EGCampoFormulario</value>
+    <comment>Description for DomainRole &apos;EGCampoFormulario&apos; on DomainRelationship &apos;ModeloDERAWebBDHasEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasEGCampoFormulario/EGCampoFormulario.DisplayName" xml:space="preserve">
+    <value>EGCampo Formulario</value>
+    <comment>DisplayName for DomainRole &apos;EGCampoFormulario&apos; on DomainRelationship &apos;ModeloDERAWebBDHasEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.ModeloDERAWebBDHasEGCampoFormulario/EGCampoFormulario.PropertyDisplayName" xml:space="preserve">
+    <value>Modelo DERAWeb BD</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EGCampoFormulario&apos; on DomainRelationship &apos;ModeloDERAWebBDHasEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoReferencesAtributoEGCampoFormulario.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoReferencesAtributoEGCampoFormulario</value>
+    <comment>Description for DomainClass &apos;AtributoReferencesAtributoEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoReferencesAtributoEGCampoFormulario.DisplayName" xml:space="preserve">
+    <value>Atributo References Atributo EGCampo Formulario</value>
+    <comment>DisplayName for DomainClass &apos;AtributoReferencesAtributoEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoReferencesAtributoEGCampoFormulario/Atributo.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoReferencesAtributoEGCampoFormulario.Atributo</value>
+    <comment>Description for DomainRole &apos;Atributo&apos; on DomainRelationship &apos;AtributoReferencesAtributoEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoReferencesAtributoEGCampoFormulario/Atributo.DisplayName" xml:space="preserve">
+    <value>Atributo</value>
+    <comment>DisplayName for DomainRole &apos;Atributo&apos; on DomainRelationship &apos;AtributoReferencesAtributoEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoReferencesAtributoEGCampoFormulario/Atributo.PropertyDisplayName" xml:space="preserve">
+    <value>Atributo EGCampo Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Atributo&apos; on DomainRelationship &apos;AtributoReferencesAtributoEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoReferencesAtributoEGCampoFormulario/EGCampoFormulario.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoReferencesAtributoEGCampoFormulario.EGCampoFormulario</value>
+    <comment>Description for DomainRole &apos;EGCampoFormulario&apos; on DomainRelationship &apos;AtributoReferencesAtributoEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoReferencesAtributoEGCampoFormulario/EGCampoFormulario.DisplayName" xml:space="preserve">
+    <value>EGCampo Formulario</value>
+    <comment>DisplayName for DomainRole &apos;EGCampoFormulario&apos; on DomainRelationship &apos;AtributoReferencesAtributoEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.AtributoReferencesAtributoEGCampoFormulario/EGCampoFormulario.PropertyDisplayName" xml:space="preserve">
+    <value>EGCampo Formulario Atributo</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EGCampoFormulario&apos; on DomainRelationship &apos;AtributoReferencesAtributoEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionDerEntidad.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionDerEntidad</value>
+    <comment>Description for DomainClass &apos;RelacionReferencesRelacionDerEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionDerEntidad.DisplayName" xml:space="preserve">
+    <value>Relacion References Relacion Der Entidad</value>
+    <comment>DisplayName for DomainClass &apos;RelacionReferencesRelacionDerEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionDerEntidad/cardinalidadDer.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionDerEntidad.Cardinalidad Der</value>
+    <comment>Description for DomainProperty &apos;cardinalidadDer&apos; on DomainClass &apos;RelacionReferencesRelacionDerEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionDerEntidad/cardinalidadDer.DisplayName" xml:space="preserve">
+    <value>Cardinalidad Der</value>
+    <comment>DisplayName for DomainProperty &apos;cardinalidadDer&apos; on DomainClass &apos;RelacionReferencesRelacionDerEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionDerEntidad/Relacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionDerEntidad.Relacion</value>
+    <comment>Description for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;RelacionReferencesRelacionDerEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionDerEntidad/Relacion.DisplayName" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>DisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;RelacionReferencesRelacionDerEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionDerEntidad/Relacion.PropertyDisplayName" xml:space="preserve">
+    <value>Relacion Der Entidad</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;RelacionReferencesRelacionDerEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionDerEntidad/Entidad.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionDerEntidad.Entidad</value>
+    <comment>Description for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;RelacionReferencesRelacionDerEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionDerEntidad/Entidad.DisplayName" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>DisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;RelacionReferencesRelacionDerEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionDerEntidad/Entidad.PropertyDisplayName" xml:space="preserve">
+    <value>Entidad Relacion Der</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;RelacionReferencesRelacionDerEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionIzqEntidad.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionIzqEntidad</value>
+    <comment>Description for DomainClass &apos;RelacionReferencesRelacionIzqEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionIzqEntidad.DisplayName" xml:space="preserve">
+    <value>Relacion References Relacion Izq Entidad</value>
+    <comment>DisplayName for DomainClass &apos;RelacionReferencesRelacionIzqEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionIzqEntidad/cardinalidadIzq.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionIzqEntidad.Cardinalidad Izq</value>
+    <comment>Description for DomainProperty &apos;cardinalidadIzq&apos; on DomainClass &apos;RelacionReferencesRelacionIzqEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionIzqEntidad/cardinalidadIzq.DisplayName" xml:space="preserve">
+    <value>Cardinalidad Izq</value>
+    <comment>DisplayName for DomainProperty &apos;cardinalidadIzq&apos; on DomainClass &apos;RelacionReferencesRelacionIzqEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionIzqEntidad/Relacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionIzqEntidad.Relacion</value>
+    <comment>Description for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;RelacionReferencesRelacionIzqEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionIzqEntidad/Relacion.DisplayName" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>DisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;RelacionReferencesRelacionIzqEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionIzqEntidad/Relacion.PropertyDisplayName" xml:space="preserve">
+    <value>Relacion Izq Entidad</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;RelacionReferencesRelacionIzqEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionIzqEntidad/Entidad.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionIzqEntidad.Entidad</value>
+    <comment>Description for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;RelacionReferencesRelacionIzqEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionIzqEntidad/Entidad.DisplayName" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>DisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;RelacionReferencesRelacionIzqEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.RelacionReferencesRelacionIzqEntidad/Entidad.PropertyDisplayName" xml:space="preserve">
+    <value>Entidad Relacion Izq</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Entidad&apos; on DomainRelationship &apos;RelacionReferencesRelacionIzqEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.TipoCardinalidad/hola.DisplayName" xml:space="preserve">
+    <value>hola</value>
+    <comment>Display name for EnumerationLiteral &apos;hola&apos; on DomainEnumeration &apos;TipoCardinalidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.TipoCardinalidad/hola.Description" xml:space="preserve">
+    <value>Cardinalidad 1</value>
+    <comment>Description for EnumerationLiteral &apos;hola&apos; on DomainEnumeration &apos;TipoCardinalidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEntidad.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEntidad</value>
+    <comment>Description for DomainClass &apos;MetaforaEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEntidad.DisplayName" xml:space="preserve">
+    <value>Metafora Entidad</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaEntidad&apos;</comment>
+  </data>
+  <data name="MetaforaEntidadNombreEntidadDefaultText" xml:space="preserve">
+    <value>NombreEntidad</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaAtributo.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaAtributo</value>
+    <comment>Description for DomainClass &apos;MetaforaAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaAtributo.DisplayName" xml:space="preserve">
+    <value>Metafora Atributo</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaAtributo&apos;</comment>
+  </data>
+  <data name="MetaforaAtributoNombreAtributoDefaultText" xml:space="preserve">
+    <value>NombreAtributo</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaRelacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaRelacion</value>
+    <comment>Description for DomainClass &apos;MetaforaRelacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaRelacion.DisplayName" xml:space="preserve">
+    <value>Metafora Relacion</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaRelacion&apos;</comment>
+  </data>
+  <data name="MetaforaRelacionNombreRelacionDefaultText" xml:space="preserve">
+    <value>NombreRelacion</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaRelacionCardinalidadTotalDefaultText" xml:space="preserve">
+    <value>CardinalidadTotal</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaAtributoClave.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaAtributoClave</value>
+    <comment>Description for DomainClass &apos;MetaforaAtributoClave&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaAtributoClave.DisplayName" xml:space="preserve">
+    <value>Metafora Atributo Clave</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaAtributoClave&apos;</comment>
+  </data>
+  <data name="MetaforaAtributoClaveNombreClaveDefaultText" xml:space="preserve">
+    <value>NombreClave</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEGPortal.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEGPortal</value>
+    <comment>Description for DomainClass &apos;MetaforaEGPortal&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEGPortal.DisplayName" xml:space="preserve">
+    <value>Metafora EGPortal</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaEGPortal&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEGPagnaWeb.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEGPagnaWeb</value>
+    <comment>Description for DomainClass &apos;MetaforaEGPagnaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEGPagnaWeb.DisplayName" xml:space="preserve">
+    <value>Metafora EGPagna Web</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaEGPagnaWeb&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEGCampoFormulario.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEGCampoFormulario</value>
+    <comment>Description for DomainClass &apos;MetaforaEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEGCampoFormulario.DisplayName" xml:space="preserve">
+    <value>Metafora EGCampo Formulario</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaEGCampoFormulario&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaRNE.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaRNE</value>
+    <comment>Description for DomainClass &apos;MetaforaRNE&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaRNE.DisplayName" xml:space="preserve">
+    <value>Metafora RNE</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaRNE&apos;</comment>
+  </data>
+  <data name="MetaforaRNECardinalidadDecDefaultText" xml:space="preserve">
+    <value>CardinalidadDec</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaConexion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaConexion</value>
+    <comment>Description for DomainClass &apos;MetaforaConexion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaConexion.DisplayName" xml:space="preserve">
+    <value>Metafora Conexion</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaConexion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaConexionCP.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaConexionCP</value>
+    <comment>Description for DomainClass &apos;MetaforaConexionCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaConexionCP.DisplayName" xml:space="preserve">
+    <value>Metafora Conexion CP</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaConexionCP&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEGPaginaEntidad.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEGPaginaEntidad</value>
+    <comment>Description for DomainClass &apos;MetaforaEGPaginaEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEGPaginaEntidad.DisplayName" xml:space="preserve">
+    <value>Metafora EGPagina Entidad</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaEGPaginaEntidad&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEGCamposAtributos.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEGCamposAtributos</value>
+    <comment>Description for DomainClass &apos;MetaforaEGCamposAtributos&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaEGCamposAtributos.DisplayName" xml:space="preserve">
+    <value>Metafora EGCampos Atributos</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaEGCamposAtributos&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaRDE.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaRDE</value>
+    <comment>Description for DomainClass &apos;MetaforaRDE&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaRDE.DisplayName" xml:space="preserve">
+    <value>Metafora RDE</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaRDE&apos;</comment>
+  </data>
+  <data name="MetaforaRDECardinalidadDerDecDefaultText" xml:space="preserve">
+    <value>CardinalidadDerDec</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaRIE.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaRIE</value>
+    <comment>Description for DomainClass &apos;MetaforaRIE&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.MetaforaRIE.DisplayName" xml:space="preserve">
+    <value>Metafora RIE</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaRIE&apos;</comment>
+  </data>
+  <data name="MetaforaRIECardinalidadIzqDecDefaultText" xml:space="preserve">
+    <value>CardinalidadIzqDec</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="FormatList" xml:space="preserve">
+    <value>JMGPVRCMAMBModeladoYLenguajeGrafico (*.JMGPVRCMAMB_DSLProyIPS)|*.JMGPVRCMAMB_DSLProyIPS</value>
+    <comment>A list of file format specifiers for the Save dialog box</comment>
+  </data>
+  <data name="ModelExplorerTitle" xml:space="preserve">
+    <value>JMGPVRCMAMBModeladoYLenguajeGrafico Explorer</value>
+    <comment>Model Explorer Toolwindow title</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.JMGPVRCMAMBModeladoYLenguajeGraficoDiagram.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.JMGPVRCMAMBModeladoYLenguajeGraficoDiagram</value>
+    <comment>Description for DomainClass &apos;JMGPVRCMAMBModeladoYLenguajeGraficoDiagram&apos;</comment>
+  </data>
+  <data name="UPM_IPS.JMGPVRCMAMBModeladoYLenguajeGrafico.JMGPVRCMAMBModeladoYLenguajeGraficoDiagram.DisplayName" xml:space="preserve">
+    <value>Minimal Language Diagram</value>
+    <comment>DisplayName for DomainClass &apos;JMGPVRCMAMBModeladoYLenguajeGraficoDiagram&apos;</comment>
+  </data>
+  <data name="ObjetosToolboxTab" xml:space="preserve">
+    <value>Objetos</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="EntidadToolboxItem" xml:space="preserve">
+    <value>Entidad</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EntidadToolboxTooltip" xml:space="preserve">
+    <value>Crea una Entidad</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="AtributoToolboxItem" xml:space="preserve">
+    <value>Atributo</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="AtributoToolboxTooltip" xml:space="preserve">
+    <value>Crea Atributo</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RelacionBinariaToolboxItem" xml:space="preserve">
+    <value>RelacionBinaria</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RelacionBinariaToolboxTooltip" xml:space="preserve">
+    <value>Relacion Binaria</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ClavePrimariaToolboxItem" xml:space="preserve">
+    <value>ClavePrimaria</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ClavePrimariaToolboxTooltip" xml:space="preserve">
+    <value>Clave Primaria</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EnlacesToolboxTab" xml:space="preserve">
+    <value>Enlaces</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="RelacionNEntidadToolboxItem" xml:space="preserve">
+    <value>RelacionNEntidad</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RelacionNEntidadToolboxTooltip" xml:space="preserve">
+    <value>Relacion NEntidad</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RelacionDerEntidadToolboxItem" xml:space="preserve">
+    <value>RelacionDerEntidad</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RelacionDerEntidadToolboxTooltip" xml:space="preserve">
+    <value>Relacion Der Entidad</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RelacionIzqEntidadToolboxItem" xml:space="preserve">
+    <value>RelacionIzqEntidad</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RelacionIzqEntidadToolboxTooltip" xml:space="preserve">
+    <value>Relacion Izq Entidad</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ConectarAtributoToolboxItem" xml:space="preserve">
+    <value>ConectarAtributo</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ConectarAtributoToolboxTooltip" xml:space="preserve">
+    <value>Conectar Atributo</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EntidadClaveToolboxItem" xml:space="preserve">
+    <value>EntidadClave</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EntidadClaveToolboxTooltip" xml:space="preserve">
+    <value>Entidad Clave</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EGPaginaEntidadToolboxItem" xml:space="preserve">
+    <value>EGPaginaEntidad</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EGPaginaEntidadToolboxTooltip" xml:space="preserve">
+    <value>EGPagina Entidad</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EGCamposFormularioAtributoToolboxItem" xml:space="preserve">
+    <value>EGCamposFormularioAtributo</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EGCamposFormularioAtributoToolboxTooltip" xml:space="preserve">
+    <value>EGCampos Formulario Atributo</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EstilosToolboxTab" xml:space="preserve">
+    <value>Estilos</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="PortalWebToolboxItem" xml:space="preserve">
+    <value>PortalWeb</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="PortalWebToolboxTooltip" xml:space="preserve">
+    <value>Portal Web</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="PaginaWebToolboxItem" xml:space="preserve">
+    <value>PaginaWeb</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="PaginaWebToolboxTooltip" xml:space="preserve">
+    <value>Pagina Web</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="CamposFormularioToolboxItem" xml:space="preserve">
+    <value>CamposFormulario</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="CamposFormularioToolboxTooltip" xml:space="preserve">
+    <value>Campos Formulario</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="UnresolvedToolboxItem" xml:space="preserve">
+    <value>ToolboxItem {0} was not found</value>
+    <comment>Invalid toolId</comment>
+  </data>
+  <data name="UnsupportedToolboxFormat" xml:space="preserve">
+    <value>Unsupported toolbox format: {0}</value>
+    <comment>Unsupported format Id</comment>
+  </data>
+  <data name="UnrecognizedElementType" xml:space="preserve">
+    <value>ElementType {0} is not recognized as a type of domain class which belongs to this domain model.</value>
+    <comment>Incorrect ElementType passed in to Model.CreateElement method</comment>
+  </data>
+  <data name="UnrecognizedElementLinkType" xml:space="preserve">
+    <value>ElementLinkType {0} is not recognized as a type of domain relationship which belongs to this domain model.</value>
+    <comment>Incorrect ElementLinkType passed in to Model.CreateElementLink method</comment>
+  </data>
+  <data name="AmbiguousSchema" xml:space="preserve">
+    <value>More than one schema found for target namespace &apos;{0}&apos;, use the first one at &apos;{1}&apos;.</value>
+    <comment>Serialization Warning: AmbiguousSchema</comment>
+  </data>
+  <data name="ExpectingFullFormRelationship" xml:space="preserve">
+    <value>Element &apos;{0}&apos; is treated as the target role-player of a relationship &apos;{1}&apos; instance, which should be serialized in full-form.</value>
+    <comment>Serialization Warning: ExpectingFullFormRelationship</comment>
+  </data>
+  <data name="ExpectingShortFormRelationship" xml:space="preserve">
+    <value>Instances of relationship &apos;{0}&apos; should be serialized in short-form.</value>
+    <comment>Serialization Warning: ExpectingShortFormRelationship</comment>
+  </data>
+  <data name="IgnoredPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;, ignored.</value>
+    <comment>Serialization Warning: IgnoredPropertyValue</comment>
+  </data>
+  <data name="MissingId" xml:space="preserve">
+    <value>Missing &apos;Id&apos; attribute, a new Guid &apos;{0}&apos; is auto-generated.</value>
+    <comment>Serialization Warning: MissingId</comment>
+  </data>
+  <data name="MonikerResolvedToDuplicateLink" xml:space="preserve">
+    <value>Resolving moniker &apos;{0}&apos; causes a duplicate link to be created, so the link and the moniker are ignored.</value>
+    <comment>Serialization Warning: MonikerResolvedToDuplicateLink</comment>
+  </data>
+  <data name="NoSchema" xml:space="preserve">
+    <value>Cannot find a schema that defines target namespace &apos;{0}&apos;, schema validation skipped.</value>
+    <comment>Serialization Warning: NoSchema</comment>
+  </data>
+  <data name="UnexpectedXmlElement" xml:space="preserve">
+    <value>Unexpected XML element &apos;{0}&apos;, ignored.</value>
+    <comment>Serialization Warning: UnexpectedXmlElement</comment>
+  </data>
+  <data name="AmbiguousMoniker" xml:space="preserve">
+    <value>Ambiguous moniker &apos;{0}&apos; encountered. It is used for both &apos;{1}&apos; and &apos;{2}&apos;.</value>
+    <comment>Serialization Error: AmbiguousMoniker</comment>
+  </data>
+  <data name="CannotMonikerizeElement" xml:space="preserve">
+    <value>Instances of DomainClass &apos;{0}&apos; cannot be serialized as a moniker.
+A DomainClass can be serialized as a moniker only if 
+1) it has a defined/inherited DomainProperty marked as IsMonikerKey=true, or 
+2) it is marked/inherited with SerializeId=true.</value>
+    <comment>Serialization Error: CannotMonikerizeElement</comment>
+  </data>
+  <data name="CannotOpenDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotOpenDocument</comment>
+  </data>
+  <data name="CannotSaveDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotSaveDocument</comment>
+  </data>
+  <data name="DanglingRelationship" xml:space="preserve">
+    <value>Relationship &apos;{0}&apos; instance is missing target role-player.</value>
+    <comment>Serialization Error: DanglingRelationship</comment>
+  </data>
+  <data name="InvalidPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;.</value>
+    <comment>Serialization Error: InvalidPropertyValue</comment>
+  </data>
+  <data name="MissingMoniker" xml:space="preserve">
+    <value>Missing moniker. A moniker is expected in attribute &apos;{0}&apos;.</value>
+    <comment>Serialization Error: MissingMoniker</comment>
+  </data>
+  <data name="MissingTransaction" xml:space="preserve">
+    <value>This must be called within the context of an active transaction.</value>
+    <comment>Serialization Error: MissingTransaction</comment>
+  </data>
+  <data name="UnresolvedMoniker" xml:space="preserve">
+    <value>Cannot resolve moniker &apos;{0}&apos;.</value>
+    <comment>Serialization Error: UnresolvedMoniker</comment>
+  </data>
+  <data name="VersionMismatch" xml:space="preserve">
+    <value>Unsupported version &apos;{0}&apos;, can only support &apos;{1}&apos;.</value>
+    <comment>Serialization Error: VersionMismatch</comment>
+  </data>
+  <data name="CannotCloseExistingDiagramDocument" xml:space="preserve">
+    <value>Diagram file &apos;{0}&apos; cannot be closed.</value>
+    <comment>User cancel closing diagram file. Hence, the DSL model file cannot be opened</comment>
+  </data>
+  <data name="BindingErrorOccurred" xml:space="preserve">
+    <value>Extensions for this designer may not be found as a MEF binding error has occurred. The error that occurred was:
+{0}</value>
+    <comment>MEF binding error occurred - exception message being logged in the error window so the user is aware.</comment>
+  </data>
+  <data name="InvalidSaveRootElementType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid root element type.</value>
+    <comment>Exception message used if an invalid root element type is passed to IDomainModelSerializer.SaveModel / SaveModelAndDiagram</comment>
+  </data>
+  <data name="InvalidSaveDiagramType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid diagram type.</value>
+    <comment>Exception message used if an invalid diagram type is passed to IDomainModelSerializer.SaveModelAndDiagram</comment>
+  </data>
+  <data name="MinimumMultiplicityMissingLink" xml:space="preserve">
+    <value>{0} {1} has no {2}.</value>
+    <comment>Multiplicity underflow validation.</comment>
+  </data>
+  <data name="SaveOperationCancelled" xml:space="preserve">
+    <value>Save operation cancelled.</value>
+    <comment>Message when save is cancelled on validation errors</comment>
+  </data>
+  <data name="SaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors, continue save?</value>
+    <comment>Message when validation errors are found on save</comment>
+  </data>
+  <data name="UnloadableSaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors. Continuing to save may cause the file to become unloadable, do you want to continue?</value>
+    <comment>Message when validation errors are found on save that will cause file to become unloadable</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MetaforaEGPortalImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\icon.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>MetaforaEGPortal shape image</comment>
+  </data>
+  <data name="MetaforaEGPagnaWebImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\brocha.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>MetaforaEGPagnaWeb shape image</comment>
+  </data>
+  <data name="MetaforaEGCampoFormularioImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\lapiz.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>MetaforaEGCampoFormulario shape image</comment>
+  </data>
+  <data name="EntidadToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Entidad.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="AtributoToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\atributo.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RelacionBinariaToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\relacion.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ClavePrimariaToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\clavePrimaria.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RelacionNEntidadToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\relacionEntidadRelacion.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RelacionDerEntidadToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\relacionEntidadRelacion.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RelacionIzqEntidadToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\relacionEntidadRelacion.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ConectarAtributoToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\relacionEntidadAtributo.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EntidadClaveToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\relacionEntidadClave.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EGPaginaEntidadToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\lineaConexion16 (1).bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EGCamposFormularioAtributoToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\lineaConexion16 (1).bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="PortalWebToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\iconICON.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="PaginaWebToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\brochaICON.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="CamposFormularioToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\lapizICON.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+</root>
+
+
